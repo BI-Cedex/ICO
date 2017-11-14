@@ -5,9 +5,9 @@ Test Project built on Ethereum. Containing TestToken smart contract.
 ### Prerequisites
 
 Install Truffle framework
+
 ```
 npm install -g truffle
-
 ```
 
 ## Installing
@@ -15,7 +15,6 @@ npm install -g truffle
 ```
 git clone https://github.com/BorisIdzinskyTF/ICO.git
 cd ICO
-npm install
 ```
 
 ## Testing
