@@ -15,6 +15,7 @@ truffle compile
 ```
 
 ## Testing
+To run the tests, simply run
 
 ```
 truffle test
