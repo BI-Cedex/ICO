@@ -2,26 +2,26 @@
 
 Test Project built on Ethereum. Containing TestToken smart contract.
 
-### Prerequisites
-
-Install Truffle framework
+## Installing
+This was developed using Node 8.4.0, Truffle 3.4.11.
 
 ```
 npm install -g truffle
-```
-
-## Installing
-
-```
+npm install
 git clone https://github.com/BorisIdzinskyTF/ICO.git
 cd ICO
+npm install zeppelin-solidity
+truffle compile
 ```
 
 ## Testing
 
 ```
-npm run test
+truffle test
 ```
+
+## Composition of the repo
+The repo is composed as a Truffle project. The test suite can be found in `test` folder. The contract is in `contracts/TestToken.sol`. The deployment scripts are in the `migrations` folder.
 
 ## Built With
 
